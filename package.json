@@ -1,0 +1,27 @@
+{
+  "name": "nextjs-production-boilerplate",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -p $PORT",
+    "lint": "next lint",
+    "format": "prettier --write .",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "14.x",
+    "react": "18.x",
+    "react-dom": "18.x",
+    "next-auth": "^4.x",
+    "@prisma/client": "^4.x",
+    "tailwindcss": "^4.x",
+    "sentry-nextjs": "^7.x"
+  },
+  "devDependencies": {
+    "typescript": "^5.x",
+    "eslint": "^8.x",
+    "prettier": "^2.x",
+    "prisma": "^4.x"
+  }
+}
